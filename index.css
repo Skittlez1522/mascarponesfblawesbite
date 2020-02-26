@@ -15,8 +15,11 @@ body {
 }
 
 .header {
-  background: url(https://media.istockphoto.com/photos/silhouette-plane-over-mountain-at-sunset-picture-id1064491170?k=6&m=1064491170&s=170667a&w=0&h=4670dZa_Ge6cJfotT667yeO1LuxSvewN-aECscXimrw=) no-repeat center center;
+  background: url(sunset2.png) no-repeat center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   height: 800px;
   text-align: center;
 }
@@ -74,12 +77,14 @@ body {
 
 #menu-outer {
 	height: 80px;
-
 }
 
 .nav {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
+  background: #000;
+  height: 80px;
+  width: 100%;
 }
 
 ul#horizontal-list {
@@ -159,6 +164,9 @@ th, td {
 .jumbotron {
   background: url(https://farm2.static.flickr.com/1746/41934563624_18f26fbe91_b.jpg) center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   height: 600px;
 }
 
