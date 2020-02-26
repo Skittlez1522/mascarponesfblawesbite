@@ -118,6 +118,13 @@ ul#horizontal-list li {
   margin: 50px 80px 50px 0;
 }
 
+.imgtext {
+  float: left;
+  padding: 0 10px 50px 0;
+  position: relative;
+  bottom: 50px;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 0 15px;
