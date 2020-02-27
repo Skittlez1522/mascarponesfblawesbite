@@ -113,6 +113,10 @@ ul#horizontal-list li {
   margin: 80px auto;
 }
 
+.main {
+  height: 200px;
+}
+
 .main img {
   float: center;
   margin: 50px 80px 50px 0;

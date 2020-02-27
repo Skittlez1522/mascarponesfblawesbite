@@ -109,10 +109,6 @@ ul#horizontal-list li {
   transition: background .5s;
 }
 
-h2 a {
-  text-decoration: none;
-}
-
 .main .container {
   margin: 80px auto;
 }
