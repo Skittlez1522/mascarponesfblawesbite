@@ -231,28 +231,26 @@
                     });
                   </script>
                </div>
-                <div class="col-sm-6">
-                  <div class="calendarReturn">
-                  <input type="text" class="browser-default custom-select mb-4" id="date-input1" style="width: 100%;" placeholder="Arrive" readonly/>
+               <div class="col-sm-6">
+                 <input type="text" class="browser-default custom-select mb-4" id="date-input1" style="width: 100%;" placeholder="Return" readonly/>
 
-                  <script>
-                    var calendar1 = new dhx.Calendar(null, {dateFormat: "%d/%m/%y"});
-                    var popup1 = new dhx.Popup();
+                 <script>
+                   var calendar1 = new dhx.Calendar(null, {dateFormat: "%d/%m/%y"});
+                   var popup1 = new dhx.Popup();
 
-                    popup1.attach(calendar1);
+                   popup1.attach(calendar1);
 
-                    var dateInput1 = document.getElementById("date-input1");
-                    dateInput1.addEventListener("click", function() {
-                      popup.show(dateInput1);
-                    });
+                   var dateInput1 = document.getElementById("date-input1");
+                     dateInput1.addEventListener("click", function() {
+                     popup1.show(dateInput1);
+                   });
 
-                    calendar1.events.on("change", function() {
-                      dateInput1.value = calendar1.getValue();
-                      popup1.hide();
-                    });
-                  </script>
-                  </div>
-                </div>
+                   calendar1.events.on("change", function() {
+                     dateInput1.value = calendar1.getValue();
+                     popup1.hide();
+                   });
+                 </script>
+              </div>
             </div>
             <div class="row mt-4">
                 <div class="col-sm-6">
