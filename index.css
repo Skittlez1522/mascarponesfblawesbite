@@ -54,7 +54,7 @@ body {
   text-transform: uppercase;
 }
 
-.btn {
+.btnA {
   color: #fff;
   background: #000;
   padding: 10px 40px;
@@ -97,7 +97,7 @@ ul#horizontal-list li {
 		display: inline;
 }
 
-.btn:hover, .nav ul li:hover {
+.btnA:hover, .nav ul li:hover {
   background : #117bff;
   cursor: pointer;
   transition: background .5s;
@@ -192,7 +192,7 @@ th, td {
   text-align: right;
 }
 
-.jumbotron .btn {
+.jumbotron .btnA {
   margin: 10px 0 0;
   float: right;
 }
