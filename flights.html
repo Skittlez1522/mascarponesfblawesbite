@@ -232,6 +232,7 @@
                   </script>
                </div>
                 <div class="col-sm-6">
+                  <div class="calendarReturn">
                   <input type="text" class="browser-default custom-select mb-4" id="date-input1" style="width: 100%;" placeholder="Arrive" readonly/>
 
                   <script>
@@ -247,9 +248,10 @@
 
                     calendar1.events.on("change", function() {
                       dateInput1.value = calendar1.getValue();
-                      popup.hide();
+                      popup1.hide();
                     });
                   </script>
+                  </div>
                 </div>
             </div>
             <div class="row mt-4">
